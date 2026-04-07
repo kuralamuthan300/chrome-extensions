@@ -1,5 +1,7 @@
 # Fluent Tasks - Chrome Extension
 
+[🏠 Go to Root Directory](../README.md)
+
 A professional, spacious, and feature-rich To-Do List extension for Google Chrome, styled with Microsoft's Fluent UI design system.
 
 ## 🚀 Features
