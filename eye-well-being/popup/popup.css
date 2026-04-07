@@ -1,0 +1,122 @@
+/* Eye Care Popup Styles */
+:root {
+  --primary-pink: #ec4899;
+  --secondary-pink: #fdf2f8;
+  --text-dark: #1e293b;
+  --text-muted: #64748b;
+  --bg-white: #ffffff;
+  --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  width: 300px;
+  background-color: var(--secondary-pink);
+  color: var(--text-dark);
+  border-radius: 20px;
+}
+
+.popup-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.mascot {
+  width: 48px;
+  height: 48px;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: var(--shadow);
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--primary-pink);
+}
+
+.status-card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+  border: 2px solid white;
+}
+
+.status-label {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+
+.countdown {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin: 10px 0;
+}
+
+.rule-hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.primary-btn {
+  background: var(--primary-pink);
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(236, 72, 153, 0.4);
+}
+
+.primary-btn:hover {
+  background: #db2777;
+  transform: translateY(-1px);
+}
+
+.secondary-btn {
+  background: #ffffff;
+  color: var(--text-muted);
+  border: 1px solid #e2e8f0;
+}
+
+.secondary-btn:hover {
+  background: #f8fafc;
+  color: var(--text-dark);
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}

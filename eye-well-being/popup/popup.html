@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eye Care 15-15-15</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <img src="../assets/panda.png" alt="Panda Mascot" class="mascot">
+      <h1>Eye Care</h1>
+    </div>
+    
+    <div class="status-card">
+      <p class="status-label">Next break in:</p>
+      <div id="countdown" class="countdown">--:--</div>
+      <p class="rule-hint">15m interval • 15s break • 15m away</p>
+    </div>
+
+    <div class="actions">
+      <button id="skip-btn" class="secondary-btn">Reset Timer</button>
+      <button id="test-btn" class="primary-btn">Test Break Now</button>
+    </div>
+
+    <div class="footer">
+      <p>Keep your eyes happy! 🐼</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
