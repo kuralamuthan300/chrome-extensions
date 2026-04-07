@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Tasks (by Google Style)",
+  "version": "1.0",
+  "description": "A stylish, Material-designed To-Do List with views, subtasks, URL saving, and deadlines.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "alarms",
+    "notifications",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Tasks"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
